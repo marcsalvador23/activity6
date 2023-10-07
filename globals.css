@@ -1,0 +1,41 @@
+body {
+  justify-content: center;
+  min-height: 100vh;
+  perspective: 100px;
+  margin: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(2.avif);
+  background-size: calc(180vh);
+  font-size: larger;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.increment {
+  padding: 14px 36px;
+  margin: 2vh;
+  background-color: #0e5ae7;
+  text-align: center;
+  text-decoration: none;
+  width: 13rem;
+  border: solid#e40d0d;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.decrement {
+  padding: 14px 36px;
+  background-color: #df1b14;
+  text-align: center;
+  margin: 2vh;
+  width: 13rem;
+  border: solid#460de4;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
